@@ -100,12 +100,10 @@
 			isa = PBXGroup;
 			children = (
 				0C1034DD217DD36900D931ED /* AppDelegate.swift */,
-				0C1034DF217DD36900D931ED /* ViewController.swift */,
-				0C1034E1217DD36900D931ED /* Main.storyboard */,
 				0C1034E7217DD36A00D931ED /* Assets.xcassets */,
-				0C1034E9217DD36A00D931ED /* LaunchScreen.storyboard */,
 				0C1034EC217DD36A00D931ED /* Info.plist */,
 				0C1034E4217DD36900D931ED /* DailyNotes.xcdatamodeld */,
+				0C103541217F0B6200D931ED /* Pages */,
 			);
 			path = DailyNotes;
 			sourceTree = "<group>";
@@ -126,6 +124,16 @@
 				0C103502217DD36A00D931ED /* Info.plist */,
 			);
 			path = DailyNotesUITests;
+			sourceTree = "<group>";
+		};
+		0C103541217F0B6200D931ED /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				0C1034DF217DD36900D931ED /* ViewController.swift */,
+				0C1034E1217DD36900D931ED /* Main.storyboard */,
+				0C1034E9217DD36A00D931ED /* LaunchScreen.storyboard */,
+			);
+			path = Pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
